@@ -23,6 +23,12 @@
     font-size: 18px
 }
 
+#f_image{
+    width: 100%;
+    height: auto;
+}
+
+
 #main_section{
     align-content: center;
     padding: 10px;
