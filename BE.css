@@ -48,6 +48,7 @@ nav li{
 }
 nav a{
     display: inline;
+    text-decoration: none;
 }
 
 .form{
