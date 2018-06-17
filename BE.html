@@ -18,9 +18,9 @@
         <aside>
             <nav>   
                 <ul>
-                    <li><a href="#">iPhone repair</a></li>
-                    <li><a href="#">iPad repair</a></li>
-                    <li><a href="#">Mac support</a></li>
+                    <li class="button"><a href="#">iPhone repair</a></li>
+                    <li class="button"><a href="#">iPad repair</a></li>
+                    <li class="button"><a href="#">Mac support</a></li>
                 </ul>
             </nav>
         </aside>
@@ -34,20 +34,20 @@
                 <br>
                 <form class="form" action = "" method = POST>
                         <div class="input">
-                            <label>First Name</label>
+                            <label>First Name:</label>
                             <input type ="text"name ="firtName" placeholder="Enter first name">
                         </div>
                         <div class="input">
-                            <label>Last Name</label>
+                            <label>Last Name:</label>
                             <input type ="text"name ="lastName" placeholder="Enter Last name">
                         </div>    
                         <div class="input">
-                            <label>Email</label>
+                            <label>Email:</label>
                             <input type ="text"email ="email" placeholder="Enter email address">
                         </div>                         
-                        <div>
-                            <label for="device">Device</label>
-                            <select name="device">
+                        <div class="input">
+                            <label for="device">Device:</label>
+                            <select name="device" id="selecter">
                                 <option value="iPhone X">iPhone X</option>
                                 <option value="iPad mini">iPad mini</option>
                                 <option value="you get the idea">you get the idea</option>
@@ -55,11 +55,11 @@
                         </div>
                        
                         <div class="input">
-                            <label>Message</label>
+                            <label>Message:</label>
                             <textarea name = "message"></textarea>
                         </div>
-                        <div class="input">
-                            <input type="submit" name="submit" value = "Submit">
+                        <div>
+                            <input class="button" type="submit" name="submit" value = "Submit">
                         </div>
                     </form>
                     

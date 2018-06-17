@@ -60,3 +60,32 @@ nav a{
     padding: 5px;
     margin: 5px;
 }
+
+.input input, .input textarea {
+    width: 100%;
+}
+
+#selecter{
+    width: 100%;
+}
+
+.input label{
+    text-align: left;
+    display: block;
+}
+
+.button{    
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.button a:visited{
+    color: white;
+}
+
+.button a:active{
+    color: white;
+}
