@@ -82,6 +82,10 @@ nav a{
     border: none;
 }
 
+.button a:link{
+    color: white;
+}
+
 .button a:visited{
     color: white;
 }
